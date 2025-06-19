@@ -1,0 +1,24 @@
+{
+  "name": "express-req-logger",
+  "version": "1.0.0",
+  "description": "Express middleware for logging requests to console and file",
+  "main": "index.js",
+  "keywords": [
+    "express",
+  "middleware",
+  "logger",
+  "logging",
+  "http",
+  "express-middleware",
+  "request-logger",
+  "file-logger",
+  "console-logger",
+  "express-logger",
+  "log",
+  "nodejs",
+  "http-logger"
+  ],
+  "author": "SanojKrishnan M",
+  "license": "MIT"
+}
+  
