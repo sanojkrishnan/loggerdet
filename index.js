@@ -51,6 +51,16 @@ function requestLogger(options = {}) {   //to print logger details in the consol
     }
 
 
+    function listener (app,port){          // listener function will do the port calling 
+    const PORT = port;
+     app.listen(PORT, () => {
+  console.log(`Server is running`);
+});}
 
-    module.exports ={ requestLogger,  
-                      logLogger,};  //module exporting
+
+
+    const loggerdet ={ requestLogger,  
+                      logLogger, 
+                      listener}   //all function alligned to one object
+
+  module.exports = loggerdet;    //object exporting

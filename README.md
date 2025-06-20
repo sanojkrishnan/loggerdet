@@ -27,13 +27,25 @@ This package exports **two independent middleware functions** that you can use b
 - File log output:
 
 
-You can use either one **or both together** in your Express app like this:
+### Whats new!
+
+### 2. `listener(options)`
+
+- Listen port
+- Give the port number you use and app object in express to activate
+- Runs the port listening code for you
+
+
+
+------------
+You can use either one **or all together** in your Express app like this:
 
 ```js
-const { requestLogger, logLogger } = require("loggerdet");
+const loggerdet = require("loggerdet");
 
-app.use(requestLogger()); // for console
-app.use(logLogger());     // for file logging
+app.use(loggerdet.requestLogger()); // for console
+app.use(loggerdet.logLogger());     // for file logging
+loggerdet.listener(app,3000);      // for port listening
 
 
 ## 🧑‍💻 Author
