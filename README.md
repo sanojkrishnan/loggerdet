@@ -1,4 +1,4 @@
-# express-req-logger
+# loggerdet
 
 A simple and flexible Express middleware that logs HTTP requests to the console and/or a file. Ideal for debugging, monitoring, and tracking incoming traffic in your Express.js apps.
 
@@ -7,7 +7,7 @@ A simple and flexible Express middleware that logs HTTP requests to the console 
 ## 📦 Installation
 
 ```bash
-npm install express-req-logger
+npm install loggerdet
 
 ## ✨ What This Module Provides
 
@@ -30,7 +30,7 @@ This package exports **two independent middleware functions** that you can use b
 You can use either one **or both together** in your Express app like this:
 
 ```js
-const { requestLogger, logLogger } = require("express-req-logger");
+const { requestLogger, logLogger } = require("loggerdet");
 
 app.use(requestLogger()); // for console
 app.use(logLogger());     // for file logging

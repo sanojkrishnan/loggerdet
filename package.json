@@ -1,24 +1,27 @@
 {
-  "name": "express-req-logger",
-  "version": "1.0.0",
+  "name": "loggerdet",
+  "version": "1.0.1",
   "description": "Express middleware for logging requests to console and file",
   "main": "index.js",
   "keywords": [
     "express",
-  "middleware",
-  "logger",
-  "logging",
-  "http",
-  "express-middleware",
-  "request-logger",
-  "file-logger",
-  "console-logger",
-  "express-logger",
-  "log",
-  "nodejs",
-  "http-logger"
+    "middleware",
+    "logger",
+    "logging",
+    "http",
+    "express-middleware",
+    "request-logger",
+    "file-logger",
+    "console-logger",
+    "express-logger",
+    "log",
+    "nodejs",
+    "http-logger"
   ],
   "author": "SanojKrishnan M",
-  "license": "MIT"
-}
-  
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanojkrishnan/express-req-logger.git"
+  }
+}  
