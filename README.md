@@ -29,11 +29,8 @@ This package exports **two independent middleware functions** that you can use b
 
 ### Whats new!
 
-### 2. `listener(options)`
-
-- Listen port
-- Give the port number you use and app object in express to activate
-- Runs the port listening code for you
+## removed a function for port listening which was not not a good feature
+## updated to more stable and well memory efficient code for better performance
 
 
 
@@ -45,7 +42,6 @@ const loggerdet = require("loggerdet");
 
 app.use(loggerdet.requestLogger()); // for console
 app.use(loggerdet.logLogger());     // for file logging
-loggerdet.listener(app,3000);      // for port listening
 
 
 ## 🧑‍💻 Author
